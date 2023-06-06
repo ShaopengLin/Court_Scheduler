@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-fun facadeMain()
+fun facadeBasic()
 {
     basicFunc()
     nulling()
