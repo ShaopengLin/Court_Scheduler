@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.operations.Bool
+import sun.font.Decoration
 import kotlin.random.Random
 
 fun facadeFunction(args: Array<String>) {
@@ -19,6 +21,10 @@ fun getFortuneCookie(): String {
         "Today is a good day for exercising restraint.",
         "Take it easy and enjoy life!"
     )
-    var input : UInt = (readlnOrNull()?.toUIntOrNull() ?: 1) as UInt
+    var input: UInt = (readlnOrNull()?.toUIntOrNull() ?: 1) as UInt
     return fortuneList[input.mod(fortuneList.size.toUInt()).toInt()]
+}
+
+fun canAddFish(tankSize: Double, currentFish: List<Int>, fishSize: Int = 2, hasDecorations: Boolean = true): Boolean {
+    return ((if (hasDecorations) 0.8 else 1).toDouble() * tankSize) - currentFish.fold(0) { x, y -> x + y } - fishSize.toInt() >= 0
 }
