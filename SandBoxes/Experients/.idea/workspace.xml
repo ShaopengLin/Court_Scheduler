@@ -31,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -57,7 +58,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Functionp2Kt">
+  <component name="RunManager" selected="Kotlin.ClassMainKt">
+    <configuration name="ClassMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassMainKt" />
+      <module name="Experients.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Functionp2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Functionp2Kt" />
       <module name="Experients.main" />
@@ -76,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ClassMainKt" />
         <item itemvalue="Kotlin.Functionp2Kt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
